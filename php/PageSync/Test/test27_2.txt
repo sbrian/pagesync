@@ -1,0 +1,47 @@
+<tbody id="dataTableBody">
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/1" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/1">Normal</a></td><td>Clarence</td><td>foobar@barfoo.com</td><td>Cloverdale</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/2" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/2">Normal</a></td><td>Peter</td><td>narf@pinky.com</td><td>Beach</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/3" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/3">Normal</a></td><td>Johnson</td><td>random@email233.com</td><td>Robson</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/4" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/4">Normal</a></td><td>Sanders</td><td>other@emailaddress.com</td><td>Kits</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/5" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/5">Normal</a></td><td>Lennie</td><td>tomcruise@scientology.com</td><td>Alberni</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/6" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/6">Normal</a></td><td>Hedy</td><td>lkjh@hjkl.com</td><td>West End</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/7" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/7">Normal</a></td><td>Nora</td><td>1234@4321.com</td><td>Edmonton</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/8" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/8">Normal</a></td><td>Garfinkel</td><td>asdf@fdsa.com</td><td>1500 Pendrell</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/9" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/9">Normal</a></td><td>Clarence</td><td>foobar@barfoo.com</td><td>Cloverdale</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/10" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/10">Normal</a></td><td>Peter</td><td>narf@pinky.com</td><td>Beach</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/11" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/11">Normal</a></td><td>Johnson</td><td>random@email233.com</td><td>Robson</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/12" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/12">Normal</a></td><td>Sanders</td><td>other@emailaddress.com</td><td>Kits</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/13" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/13">Normal</a></td><td>Lennie</td><td>tomcruise@scientology.com</td><td>Alberni</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/14" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/14">Normal</a></td><td>Hedy</td><td>lkjh@hjkl.com</td><td>West End</td>
+</tr>
+<tr>
+<td><a href="/webapps/xmldiffdemo/index/index/delete/15" class="delete">Ajax</a> | <a href="/webapps/xmldiffdemo/index/index/delete/15">Normal</a></td><td>Nora</td><td>1234@4321.com</td><td>Edmonton</td>
+</tr>
+</tbody>

@@ -1,0 +1,15 @@
+Toolkit to quickly integrate Ajax functionality into a PHP page
+
+An Ajax call triggers a change in the state of an object on the server.
+The object is rendered using an HTML template in both the original and new state.
+The two results are then compared on the server, and JSON is generated that contains
+instructions for morphing the HTML in the original state to the HTML in the new state.
+That JSON is returned to the client, where it is interpreted, and the original HTML
+is converted into the new HTML.
+
+This is mostly an academic exercise, because the document comparison on the server
+is too slow to be practical for complex documents.
+
+The demo "examples/simple/index.php" can be run on an Apache server
+with PHP with session cookies enabled.
+

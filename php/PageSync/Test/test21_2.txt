@@ -1,0 +1,82 @@
+<html>
+<head>
+<script type="text/javascript" src="/eclipse/shared/yui/2.4.1/yahoo/yahoo.js"></script>
+<script type="text/javascript" src="/eclipse/shared/yui/2.4.1/event/event.js"></script>
+<script type="text/javascript" src="/eclipse/shared/yui/2.4.1/connection/connection.js"></script>
+<script type="text/javascript" src="/eclipse/shared/javascript/hush/HUSH.js"></script>
+<script type="text/javascript" src="/eclipse/shared/javascript/hush/Event.js"></script>
+<script type="text/javascript" src="/eclipse/shared/javascript/hush/PageSync.js"></script>
+<script type="text/javascript" src="/eclipse/xmldiffdemo/public/javascript/Init.js"></script>
+<link href="/eclipse/shared/yui/2.4.1/reset-fonts-grids/reset-fonts-grids.css"
+	rel="stylesheet" type="text/css" media="screen"/>
+<style>
+body {
+	margin: 5
+}
+table {
+	border-style: solid;
+	border-width: 2;
+	
+}
+th {
+	border-style: solid;
+	border-width: 1;
+	padding: 4 2;
+}
+td {
+	border-style: solid;
+	border-width: 1;
+	padding: 4 2;
+}
+</style>
+<title>XmlDiff Demo</title>
+</head>
+<body>
+<!--
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+-->
+<table>
+<tr>
+<th><a href="/eclipse/xmldiffdemo/index/index/sort/name">Name (Normal)</a></th>
+<th><a href="/eclipse/xmldiffdemo/index/index/sort/name">Email (Normal)</a></th>
+<th><a href="/eclipse/xmldiffdemo/index/index/sort/name">Address (Normal)</a></th>
+</tr>
+<tr>
+<th><a href="/eclipse/xmldiffdemo/index/index/sort/name" id="sortByNameLink">Name (AJAX)</a></th>
+<th><a href="/eclipse/xmldiffdemo/index/index/sort/name" id="sortByEmailLink">Email (AJAX)</a></th>
+<th><a href="/eclipse/xmldiffdemo/index/index/sort/name" id="sortByLocationLink">Address (AJAX)</a></th>
+</tr>
+<tr>
+<td>Garfinkel</td><td>asdf@fdsa.com</td><td>1500 Pendrell</td>
+</tr>
+<tr>
+<td>Lennie</td><td>tomcruise@scientology.com</td><td>Alberni</td>
+</tr>
+<tr>
+<td>Peter</td><td>narf@pinky.com</td><td>Beach</td>
+</tr>
+<tr>
+<td>Clarence</td><td>foobar@barfoo.com</td><td>Cloverdale</td>
+</tr>
+<tr>
+<td>Sanders</td><td>other@emailaddress.com</td><td>Kits</td>
+</tr>
+<tr>
+<td>Johnson</td><td>random@email233.com</td><td>Robson</td>
+</tr>
+</table>
+</body>
+</html>
