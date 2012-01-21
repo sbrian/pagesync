@@ -45,7 +45,7 @@ PageSync = function(scope, myDocument)
 			success: this.wrapFunction(this.ajaxSuccessHandler),
 			error: this.wrapFunction(this.ajaxFailureHandler)
 		});
-	}
+	};
 	
 	this.ajaxSuccessHandler = function(o)
 	{
@@ -56,13 +56,13 @@ PageSync = function(scope, myDocument)
 			throw "Response from server is not an array";
 		}
 		this.processScript(responseObj);
-	}
+	};
 	
 	this.ajaxFailureHandler = function(xmlHttRequest, textStatus, errorThrown)
 	{
 		alert("here");
 		throw "Ajax operation failed: " + textStatus;
-	}
+	};
 	
 	this.processScript = function(script)
 	{
@@ -97,7 +97,7 @@ PageSync = function(scope, myDocument)
 		{
 			this.processScriptLine(script[i]);
 		}
-	}
+	};
 
 	this.processScriptLine = function(scriptLine)
 	{
@@ -127,52 +127,52 @@ PageSync = function(scope, myDocument)
 			default:
 				throw "Unknown operation: " + scriptLine[0];
 		}
-	}
+	};
 	
 	this.insertCopyBefore = function(sourceXpath, destXpath)
 	{
 		var sourceNode = this.getByXpath(sourceXpath);
 		var destNode = this.getByXpath(destXpath);
 		destNode.parentNode.insertBefore(sourceNode, destNode);
-	}
+	};
 	
 	this.appendCopyAsChild = function(sourceXpath, destXpath)
 	{
 		var sourceNode = this.getByXpath(sourceXpath);
 		var destNode = this.getByXpath(destXpath);
 		destNode.appendChild(sourceNode);	
-	}
+	};
 	
 	this.deleteNode = function(xpath)
 	{
 		var node = this.getByXpath(xpath);
 		node.parentNode.removeChild(node);
-	}
+	};
 	
 	this.insertNodeBefore = function(xpath, nodeDesc)
 	{
 		var destNode = this.getByXpath(xpath);
 		destNode.parentNode.insertBefore(this.buildNode(nodeDesc), destNode);
-	}
+	};
 	
 	this.appendChildNode = function(xpath, nodeDesc)
 	{
 		var destNode = this.getByXpath(xpath);
 		if ( ! destNode ) throw "Couldn't get node for: " + xpath;
 		destNode.appendChild(this.buildNode(nodeDesc));
-	}
+	};
 	
 	this.setTextValue = function(xpath, text)
 	{
 		var destNode = this.getByXpath(xpath);
 		destNode.data = text;
-	}
+	};
 	
 	this.setAttribute = function(xpath, name, value)
 	{
 		var destNode = this.getByXpath(xpath);
 		destNode.setAttribute(name, value);
-	}
+	};
 	
 	this.getByXpath = function(xpath)
 	{
@@ -187,7 +187,7 @@ PageSync = function(scope, myDocument)
 		if ( node.length != 1 )
 			throw "Unexpected number of nodes returned: " + xpath + ": " + node.length;
 		return node[0];
-	}
+	};
 	
 	this.buildNode = function(descArray)
 	{
@@ -200,7 +200,7 @@ PageSync = function(scope, myDocument)
 			return this.buildElementNode(descArray);
 		}
 		return this.buildElementNode(descArray);
-	}
+	};
 	
 	this.buildElementNode = function(descArray)
 	{
@@ -220,12 +220,12 @@ PageSync = function(scope, myDocument)
 			}
 		}
 		return newElement;
-	}
+	};
 	
 	this.buildTextNode = function(descArray)
 	{
 		return scope.createTextNode(descArray[INFO_VALUE]);
-	}
+	};
 	
 	this.wrapFunction = function(fn)
 	{
@@ -242,7 +242,7 @@ PageSync = function(scope, myDocument)
 				savedThis.handleError(ex);
 			}
 		}
-	}
+	};
 	
 	this.handleError = function(ex)
 	{
@@ -251,11 +251,11 @@ PageSync = function(scope, myDocument)
 			throw ex;
 		}
 		errorHandlerFunction(ex);
-	}
+	};
 	
 	this.setErrorHandler = function(handlerFunction)
 	{
 		errorHandlerFunction = handlerFunction;	
-	}
-}
+	};
+};
 
